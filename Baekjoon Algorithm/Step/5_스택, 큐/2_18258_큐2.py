@@ -1,5 +1,6 @@
 import sys
 from collections import deque
+#큐는 deque를 사용하는 것이 더 빠르다.
 
 num = int(input())
 list_num = deque([])
